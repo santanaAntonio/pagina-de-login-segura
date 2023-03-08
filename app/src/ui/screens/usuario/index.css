@@ -1,0 +1,19 @@
+.perfil {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.usuario {
+  margin-top: 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+}
