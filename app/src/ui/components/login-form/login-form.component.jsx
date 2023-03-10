@@ -19,6 +19,9 @@ export default function LoginForm({ onSubmit, error }) {
   function irAteRegistro() {
     navigate("/cadastro");
   }
+  function irAteResetarSenha() {
+    navigate("/solicitar-recuperacao-senha");
+  }
 
   return (
     <form
@@ -44,6 +47,7 @@ export default function LoginForm({ onSubmit, error }) {
         type="password"
       />
       <button>LOGIN</button>
+      <button onClick={() => irAteResetarSenha()}>ESQUECI MINHA SENHA</button>
       <button onClick={() => irAteRegistro()}>REGISTRAR</button>
     </form>
   );

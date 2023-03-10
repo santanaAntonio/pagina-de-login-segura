@@ -9,6 +9,7 @@ CREATE TABLE usuario (
     criado_em DATE ,
     modificado_em DATE ,
     imagem_perfil VARCHAR(512),
+    token_resetar_senha VARCHAR(512),
 	senha VARCHAR(100) NOT NULL,
 	ativo BOOLEAN NOT NULL
 );

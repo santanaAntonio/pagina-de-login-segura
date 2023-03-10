@@ -9,6 +9,17 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: testespring4407@gmail.com
+    password: flxsmjphhzwamujv #12ahusdh12
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
 server:
   error:
     include-message: always

@@ -39,6 +39,8 @@ public class Usuario {
 
     private LocalDate modificadoEm;
 
+    private String tokenResetarSenha;
+
     @NotNull
     private boolean ativo;
 
@@ -49,4 +51,6 @@ public class Usuario {
         this.permissoes.add(permissao);
         permissao.setUsuario(this);
     }
+
+
 }

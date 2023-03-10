@@ -45,4 +45,6 @@ public class UsuarioAutenticadoService {
         Usuario entity = get();
         return nonNull(entity) ? toResponse(entity) : new UsuarioResponse();
     }
+
+
 }

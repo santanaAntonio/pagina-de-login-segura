@@ -40,7 +40,7 @@ public class IncluirUsuarioService {
         return toResponse(usuario);
     }
 
-    private String getSenhaCriptografada(String senhaAberta) {
+    public String getSenhaCriptografada(String senhaAberta) {
         return passwordEncoder.encode(senhaAberta);
     }
 

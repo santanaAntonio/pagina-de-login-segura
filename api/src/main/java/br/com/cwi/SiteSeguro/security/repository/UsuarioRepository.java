@@ -13,4 +13,5 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
     Page<Usuario> findByNomeCompletoContainingIgnoreCaseOrEmailContainingIgnoreCaseAndAtivo(String nomeCompleto, String email, boolean ativo, Pageable pageable);
 
+    Usuario findByTokenResetarSenha(String tokenResetarSenha);
 }
